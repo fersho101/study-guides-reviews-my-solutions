@@ -449,39 +449,37 @@ F. If we indented each line five characters, it would change the output.
 
 * Incorrecto. Serian ignorados.
 
-
 ### _Q18. Which of the following statement about _var_ are true?_
 
 A. A _var_  can be used as a constructor parameter.
 
- * Incorrecto. _var_ no puede usarse como parametro de un metodo, contructor o variable de clase o instancia.
+* Incorrecto. _var_ no puede usarse como parametro de un metodo, contructor o variable de clase o instancia.
 
  B. The type of a _var_ is known at compile time.
 
- * Correcto.
+* Correcto.
 
  C. A _var_ cannot be used as an instance variable.
 
- * Correcto. _var_ no puede usarse con instance o class variable.
+* Correcto. _var_ no puede usarse con instance o class variable.
 
  D. A _var_ can be used in a multiple variable assigment statement.
 
- * Incorrecto. No puede usarse en asignacion multiple.
+* Incorrecto. No puede usarse en asignacion multiple.
 
  E. The value of a _var_  cannot change at runtime.
 
- * Incorrecto. El valor de _var_ si puede ser cambiado en runtime.
+* Incorrecto. El valor de _var_ si puede ser cambiado en runtime.
 
  F. The type of a _var_ cannot change at runtime.
 
- * Correcto. No se puede cambiar el tipo de _var_ en runtime.
+* Correcto. No se puede cambiar el tipo de _var_ en runtime.
 
  G. The word _var_ is a reserved word in Java.
 
- * Nop. No es palabra reservada.
+* Nop. No es palabra reservada.
 
-
- ### _Q19. Which are true about the following code?_
+### _Q19. Which are true about the following code?_
 
  ```java
  var num1 = Long.parseLong("100");
@@ -491,21 +489,63 @@ A. A _var_  can be used as a constructor parameter.
 
  A. The output is _100_
 
- * Correcto. Imprime _100_.
+* Correcto. Imprime _100_
 
  B. The output is _200_
 
- * Incorrecto. 
+* Incorrecto.
 
  C. The code does not compile.
 
- * Incorrecto. Compila sin problema.
+* Incorrecto. Compila sin problema.
 
  D. _num1_ is a primitive.
 
- * Correcto. _.parseLong_ convierte a _long_ que es primitivo. _valueOf_ convierte a _Long_ que es _reference object_.
+* Correcto. _.parseLong_ convierte a _long_ que es primitivo. _valueOf_ convierte a _Long_ que es _reference object_.
 
  E. _num2_ is a primitive.
 
- * Incorrecto. Es de tipo referencia.
+* Incorrecto. Es de tipo referencia.
 
+### _Q22.  Given the following class, which of the following lines of code can independently replace  INSERT CODE HERE  to make the code compile?_
+
+```java
+public class Price {
+    public void admission() {
+        INSERT CODE HERE
+        System.out.print(amount);
+    }
+}
+```
+
+A. ```int Amount = 0b11;```
+
+* Incorrecto. La variable tiene un nombre diferenete.
+
+B. ```int amount = 9L;```
+
+* Incorrecto. El literal es para un _long_ no cabe en un _int_ sin _cast_;
+
+C. ```int amount = 0xE;```
+
+* Correcto. Hexadecimal.
+
+D. ```int amount = 1_2.0;```
+
+* Incorrecto. Literal deun double.
+
+E. ```double amount = 1_0_.0 ;```
+
+* Incorrecto. _underscore_ no puede estar seguido de un punto.
+
+F. ```int amount = 0b101;```
+
+* Correcrto.
+
+G. ```double amount = 9_2.1_2;```
+
+* Correcto.
+
+H. ```double amount = 1_2_.0_0;```
+
+* Incorrecto. _underscore_ no puede estar seguido de un punto.
