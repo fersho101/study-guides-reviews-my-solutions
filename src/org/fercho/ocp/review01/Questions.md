@@ -169,6 +169,8 @@ H. ```var morning = ""; morning = null;```
 
 * Correcto. Son dos sentencia independientes;
 
+### _A08. B, D, E, H._
+
 ### _Q09. Which of the following are correct?_
 
 A. An instance variable of type _float_ default to _0_.
@@ -194,6 +196,8 @@ E. A class variable of type _String_ defaults to null.
 F. A class variable of type _String_ defaults to the empty string _""_.
 
 * Incorrecto. Variables de clase _String_ default a _null_.
+
+### _A09. E._
 
 ### _Q10. Whisch of the following expressions, When inserted independently into the blank line, allow the code to compile?_
 
@@ -232,6 +236,8 @@ F. ```9___6```
 G. ```_1_3_5_0```
 
 * Incorrecto. Underscore no puede estar al inicio del literal.
+
+### _A10. A, E, F._
 
 ### _Q11. Given the following two class files, what is the maximum number of import that can be removed and have the code still compile?_
 
@@ -382,6 +388,8 @@ E. Line 7 generates a compiler error.
 
 F. Line 8 generates a  compiler error.
 
+### _A14. A, B, D, E._
+
 ### _Q15. Which of the following statements about garbage collector are correct?_
 
 A. Calling _System.gc()_ is guaranteed  to free up memory by destroying objects elegible for garbage collection.
@@ -449,6 +457,8 @@ F. If we indented each line five characters, it would change the output.
 
 * Incorrecto. Serian ignorados.
 
+### _A16. A, D._
+
 ### _Q18. Which of the following statement about _var_ are true?_
 
 A. A _var_  can be used as a constructor parameter.
@@ -479,6 +489,8 @@ A. A _var_  can be used as a constructor parameter.
 
 * Nop. No es palabra reservada.
 
+### _A18. B, C, F._
+
 ### _Q19. Which are true about the following code?_
 
  ```java
@@ -506,6 +518,8 @@ A. A _var_  can be used as a constructor parameter.
  E. _num2_ is a primitive.
 
 * Incorrecto. Es de tipo referencia.
+
+### _A19. A, D._
 
 ### _Q22.  Given the following class, which of the following lines of code can independently replace  INSERT CODE HERE  to make the code compile?_
 
@@ -549,3 +563,5 @@ G. ```double amount = 9_2.1_2;```
 H. ```double amount = 1_2_.0_0;```
 
 * Incorrecto. _underscore_ no puede estar seguido de un punto.
+
+### _A22. C, F, G._
