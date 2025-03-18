@@ -16,6 +16,8 @@ package org.fercho.ocp.review01.q05;
  *  Correcto. No existe garantia de que corra.
  * G. The code does not compile.
  *  Incorrecto. El codigo compila sin problema. 
+ * 
+ * A05. A, D, F.
  */
 
 public class Bear {
