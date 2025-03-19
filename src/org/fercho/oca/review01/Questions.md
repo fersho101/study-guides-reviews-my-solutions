@@ -8,27 +8,27 @@
 
 A. ```A$B```
 
-* Correcto.
+* **Correcto**.
 
 B. ```_helloWorld```
 
-* Correcto. Underscore es permitido al inicio.
+* **Correcto**. Underscore es permitido al inicio.
 
 C. ```true```
 
-* Incorrecto.  Palabra reservada.
+* **Incorrecto**.  Palabra reservada.
 
 D. ```java.lang```
 
-* Incorrecto. _java.lang_ es un paquete de _Java_
+* **Incorrecto**. _java.lang_ es un paquete de _Java_
 
 E. ```Public```
 
-* Correcto. _public_ es reservada, pero _Public_ no lo es.
+* **Correcto**. _public_ es reservada, pero _Public_ no lo es.
 
 F. ```1980_s```
 
-* Incorrecto. Identificadores no pueden iniciar en numero. Solo letras, $ y _.
+* **Incorrecto**. Identificadores no pueden iniciar en numero. Solo letras, $ y _.
 
 ### _A01. A, B, E._
 
@@ -45,31 +45,31 @@ name.length(); // Line 9
 
 A. Line 4 generates a compiler error.
 
-* Incorrecto.
+* **Incorrecto**.
 
 B. Line 5 generates a compiler error.
 
-* Correcto. El literal es un _double_ .
+* **Correcto**. El literal es un _double_ .
 
 C. Line 6 generates a compiler error.
 
-* Incorrecto.  Compila sin problema.
+* **Incorrecto**.  Compila sin problema.
 
 D. Line 7 generates a compiler error.
 
-* Correcto.  _numsPets_  es un primitivo.
+* **Correcto**.  _numsPets_  es un primitivo.
 
 E. Line 8 generates a compiler error.
 
-* Correcto.  _numsPets_  es un primitivo.
+* **Correcto**.  _numsPets_  es un primitivo.
 
 F. Line 9 generates a  compiler error.
 
-*Incorrecto. _name_ es _String_ y el metodo _length_ esta bien aplicado.
+* **Incorrecto**. _name_ es _String_ y el metodo _length_ esta bien aplicado.
 
 G. The code compiles as is.
 
-* Incorrecto.
+* **Incorrecto**.
 
 ### _A03. B, D, E ._
 
