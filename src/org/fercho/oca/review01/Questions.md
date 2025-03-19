@@ -583,3 +583,61 @@ F. A, C
 G. A, B
 
 * **Incorrecto**.
+
+### _A18. C, D, E._
+
+### _Q22. Which of the following are true statements? (Choose all that apply)_
+
+A. Java allows operator overloading.
+
+* **Incorrecto**.
+
+B. Java code compiled on Windows can run on Linux.
+
+* **Correcto**.
+
+C. Java has pointers to specific locations in memory.
+
+* **Incorrecto**.
+
+D. Java is a procedural language.
+
+* **Incorrecto**.
+
+E. Java is an object-oriented language.
+
+* **Correcto**.
+
+F. Java is a functional programming language.
+
+* **Incorrecto**.
+
+### _A22. B, E._
+
+### _Q23. Which of the following are true? (Choose all that apply)_
+
+A. javac compiles a _.class_ file into a _.java_ file.
+
+* **Incorrecto**. Es lo contrario.
+
+B. javac compiles a _.java_ file into a _.bytecode_ file.
+
+* **Incorrecto**. Lo compila a _.class_ file, el _bytecode _ esta dentro del .class_.
+
+C. javac compiles a _.java_ file into a _.class_ file.
+
+* **Correcto**. Asi sin mas.
+
+D. Java takes the name of the _class_ as a parameter.
+
+* **Correcto**. Toma el nombre de la clase sin la extencion _.java_
+
+E. Java takes the name of the _.bytecode_ file as a parameter.
+
+* **Incorrecto**.
+
+F. Java takes the name of the _.class_ file as a parameter.
+
+* **Incorrecto**.
+
+### _A23. C, D._
