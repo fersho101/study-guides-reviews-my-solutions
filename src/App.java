@@ -3,6 +3,9 @@ public class App {
         System.out.println("Hello, World Java!");
 
         System.out.println(Byte.MAX_VALUE);
+
+        boolean x = true == true;
+        System.out.println(x);
         
     }
 }
