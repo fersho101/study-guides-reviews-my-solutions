@@ -98,5 +98,3 @@ F. Change the data type of y on line 4 to long.
 * **Correcto**. Serian del mismop tipo _long_.
 
 ### _A04. B, C, D, F._
-
-
