@@ -35,7 +35,7 @@ E. 3
 
 F. The code does not compile.
 
-A25. D. Al no encontra opcion correcta entra la default, y sigue hasta encontrar un break; incrementando p 3 veces. Salida 2.
+A25. D. Al no encontrar opcion correcta entra el default, y sigue hasta encontrar un break; incrementando p 3 veces. Salida 2.
  */
 public class Snippet25 {
     public static void main(String[] args) {
