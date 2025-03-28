@@ -40,7 +40,7 @@ A16. A,B,D.
 
 */
 
-public class Snippets16 {
+public class Snippet16 {
 
     static void A(char[] wolf) {
         int q = wolf.length;
