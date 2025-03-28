@@ -142,3 +142,27 @@ G. None of the above, as the code does not compile.
 * **Incorrecto**. El codigo compila sin problema.
 
 ### _A14.B, D, F._
+
+### _Q18. Which statements about pattern matching and flow scoping are correct?._
+
+A. Pattern matching with an if statement is implemented using the _instance_ operator.
+
+* **Incorrecto**.
+
+B. Pattern matching with an if statement is implemented using the _instanceon_ operator.
+
+* **Incorrecto**.
+
+C. Pattern matching with an if statement is implemented using the _instanceof_ operator.
+
+* **Correcto**.
+
+D. The pattern variable cannot be accessed after the if statement in which it is declared.
+
+* **Incorrecto**.
+
+E. Flow scoping means a pattern variable is only accesible if the compiler can discern its type.
+
+* **Correcto**.
+
+### _A18. C, E._
