@@ -1,4 +1,4 @@
-package org.fercho.ocp.review04.snippets.q01;
+package org.fercho.oca.review03.snippet.q01;
 
 /*
  * Q01. What is the following code?
